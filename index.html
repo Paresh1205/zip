@@ -56,7 +56,7 @@
             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
         </section>
     </article>
-
+    <main role="main" id="main"></main>
     <article class="col-xs-12 col-sm-12 col-md-12" id="c">
         <img class="col-xs-6 col-sm-6 col-md-6" src="images/img1.jpg" alt="">
         <section class="col-xs-6 col-sm-6 col-md-6">
@@ -74,85 +74,87 @@
         </section>
     </article>
 
-    <main role="main" id="main">
-        <article class="col-xs-12 col-md-12" id="e">
-            <i class="fa fa-book"></i>
-            <h3>Book of the day</h3>
-            <section class="col-xs-12 col-md-12" id="ee">
-                <img src="images/hot.jpg" alt="Hot_Zone" class="col-xs-3 col-md-3">
-                <section class="col-xs-12 col-md-8">
-                    <label>The Hot Zone</label>
-                    <a href="#" id="addcart">Add to Cart</a>
-                    <p style="color: darkgrey">Edition:eBook</p>
-                    <p style="color: #69caa0">$8.00</p>
-                    <p style="color: grey">In March 2014,the Ebola outbreak in West Africa was first
-                        reported. By October 2014, it had become the largest aria-expanded
-                        deadliest occurrence of the disease
-                    </p>
-                    <p style="color: grey">Over 4500 people have died. Almost 10,000 cases have been
-                        reported,across Liberia,Gulnea,Sierra Leane,Nigeria and the
-                        United States
-                    </p>
-                    <a href="#">Read More<span class="a11y">This is hidden</span></a>
-                </section>
+
+    <article class="col-xs-12 col-md-12" id="e">
+        <i class="fa fa-book"></i>
+        <h3>Book of the day</h3>
+        <section class="col-xs-12 col-md-12" id="ee">
+            <img src="images/hot.jpg" alt="Hot_Zone" class="col-xs-3 col-md-3">
+            <section class="col-xs-12 col-md-8">
+                <label>The Hot Zone</label>
+                <a href="#" id="addcart">Add to Cart</a>
+                <p style="color: darkgrey">Edition:eBook</p>
+                <p style="color: #69caa0">$8.00</p>
+                <p style="color: grey">In March 2014,the Ebola outbreak in West Africa was first
+                    reported. By October 2014, it had become the largest aria-expanded
+                    deadliest occurrence of the disease
+                </p>
+                <p style="color: grey">Over 4500 people have died. Almost 10,000 cases have been
+                    reported,across Liberia,Gulnea,Sierra Leane,Nigeria and the
+                    United States
+                </p>
+                <a href="#">Read More<span class="a11y">This is hidden</span></a>
             </section>
-        </article>
+        </section>
+    </article>
 
-        <hr class="col-xs-12 col-sm-12 col-md-12">
+    <hr class="col-xs-12 col-sm-12 col-md-12">
 
-        <article class="col-xs-12 col-sm-12 col-md-12" id="f">
+    <article class="col-xs-12 col-sm-12 col-md-12" id="f">
 
-            <section class="col-md-7">
-                <label id="signup">Newsletter sign-up</label><br>
+        <section class="col-md-7">
+            <label id="signup">Newsletter sign-up</label><br>
+            <form role="form">
                 <label for="Email">Email<span style="color:red">*</span></label><br>
                 <input type="text" id="Email" aria-autocomplete="inline" spellcheck="false" style="width: 400px"><br>
                 <button id="submit" role="button" aria-pressed="false">Submit</button>
-            </section>
+            </form>
+        </section>
 
-            <section class="col-md-5">
-                <img src="images/img2.jpg" alt=" ">
-            </section>
+        <section class="col-md-5">
+            <img src="images/img2.jpg" alt=" ">
+        </section>
 
-        </article>
+    </article>
 
 
-        <article class="col-xs-12 col-sm-12 col-md-12 " id="g">
-            <label>Featured Books</label>
-            <section id="gg">
+    <article class="col-xs-12 col-sm-12 col-md-12 " id="g" role="complementary">
+        <label>Featured Books</label>
+        <section id="gg">
 
-                <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_1">
-                    <img class="col-xs-4 col-sm-4 col-md-4" src="images/img3-_1.jpg" alt="Spot_Goodnyt">
-                    <section class="col-sm-6 col-md-12">
-                        <label>Spot Says GoodNight</label><br>
-                        <span style="color: lightgray ;text-decoration: line-through">$7.00</span>
-                        <span style="color: gray">$5.40</span>
-                    </section>
-                </div>
+            <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_1">
+                <img class="col-xs-4 col-sm-4 col-md-4" src="images/img3-_1.jpg" alt="Spot_Goodnyt">
+                <section class="col-sm-6 col-md-12">
+                    <label>Spot Says GoodNight</label><br>
+                    <span style="color: lightgray ;text-decoration: line-through">$7.00</span>
+                    <span style="color: gray">$5.40</span>
+                </section>
+            </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_2">
-                    <img class="col-sm-4" src="images/img_2.jpg" alt="Social_Engg">
-                    <section class="col-sm-6 col-md-12">
-                        <label>Social Engineering</label>
-                        <p style="color: gray">$20.50</p>
-                    </section>
-                </div>
+            <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_2">
+                <img class="col-sm-4" src="images/img_2.jpg" alt="Social_Engg">
+                <section class="col-sm-6 col-md-12">
+                    <label>Social Engineering</label>
+                    <p style="color: gray">$20.50</p>
+                </section>
+            </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_3">
-                    <img class="col-sm-4" src="images/img_3.jpg" alt="Web_Access">
-                    <section class="col-sm-6 col-md-12">
-                        <label>Web Accessiblity:Web
-                            Standards and
-                            Regulatory Compliance
-                            book cover image</label>
-                        <span style="color: lightgray;text-decoration: line-through">$8.00</span>
-                        <span style="color:gray">$28.40</span>
-                    </section>
-                </div>
-            </section>
+            <div class="col-xs-12 col-sm-12 col-md-4" role="article" id="g_3">
+                <img class="col-sm-4" src="images/img_3.jpg" alt="Web_Access">
+                <section class="col-sm-6 col-md-12">
+                    <label>Web Accessiblity:Web
+                        Standards and
+                        Regulatory Compliance
+                        book cover image</label>
+                    <span style="color: lightgray;text-decoration: line-through">$8.00</span>
+                    <span style="color:gray">$28.40</span>
+                </section>
+            </div>
+        </section>
 
-        </article>
+    </article>
     </main>
-    <footer id="foot" class="col-xs-12 col-sm-12 col-md-12">
+    <footer id="foot" class="col-xs-12 col-sm-12 col-md-12" role="contentinfo">
         Copyright 2015- Interesting Books
     </footer>
 
